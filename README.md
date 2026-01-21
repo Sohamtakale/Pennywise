@@ -1,6 +1,5 @@
-# Tauri + React + Typescript
-
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+# Pennywise
+An intelligent, privacy-first personal finance desktop agent built with Tauri, React, and TypeScript. Features real-time solvency analysis, subscription tracking, and an 'Ethical Guardian' AI to optimize wealth management and minimize debt.
 
 ## Recommended IDE Setup
 
