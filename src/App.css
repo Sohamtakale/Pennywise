@@ -1,0 +1,29 @@
+:root {
+    --bg-color: #f3f4f6;
+    --sidebar-bg: #f9fafb;
+    --text-primary: #111827;
+    --text-secondary: #6b7280;
+    --primary-green: #10b981;
+    --danger-red: #ef4444;
+}
+
+.app-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bg-color);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.main-content {
+    flex-grow: 1;
+    height: 100%;
+    position: relative;
+    background: white;
+    margin: 10px 0 10px 0;
+    /* Add some spacing for "frame" effect if desired */
+    border-radius: 20px 0 0 20px;
+    /* Rounded corners for chat area */
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.03);
+    overflow: hidden;
+}

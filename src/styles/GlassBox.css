@@ -1,0 +1,101 @@
+.glass-box {
+    width: 320px;
+    background: #ecfdf5;
+    /* Very light green tint */
+    border-left: 1px solid rgba(52, 211, 153, 0.2);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.glass-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #065f46;
+}
+
+.glass-header h3 {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #059669;
+}
+
+.glass-section {
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(52, 211, 153, 0.3);
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 20px;
+    backdrop-filter: blur(4px);
+}
+
+.section-label {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #047857;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.terminal-view {
+    font-family: 'Fira Code', monospace;
+    font-size: 0.75em;
+    color: #064e3b;
+    line-height: 1.4;
+    height: 150px;
+    overflow-y: auto;
+}
+
+.log-line {
+    margin-bottom: 4px;
+}
+
+.cursor-blink {
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+.payload-view {
+    font-family: 'Fira Code', monospace;
+    font-size: 0.75em;
+    color: #064e3b;
+    background: rgba(255, 255, 255, 0.4);
+    padding: 8px;
+    border-radius: 6px;
+    overflow-x: auto;
+}
+
+.audit-btn {
+    margin-top: auto;
+    width: 100%;
+    padding: 12px;
+    background: transparent;
+    border: 1px solid #059669;
+    color: #059669;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.audit-btn:hover {
+    background: #059669;
+    color: white;
+}

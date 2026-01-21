@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+python-multipart
+# google-generativeai # Using direct API for now or langchain
+google-generativeai
+pandas
+regex
+python-dotenv

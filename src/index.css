@@ -1,0 +1,32 @@
+:root {
+  --bg-color: #f5f7fa;
+  --sidebar-bg: #e0e5eb; /* Light grey/blueish for premium feel */
+  --chat-bg: #ffffff;
+  --glass-border: rgba(255, 255, 255, 0.4);
+  --primary-green: #34d399;
+  --danger-red: #f87171;
+  --text-primary: #1e293b;
+  --text-secondary: #64748b;
+  --font-main: 'Inter', system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-main);
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  height: 100vh;
+  overflow: hidden;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+}
+
+/* Utilities */
+.flex { display: flex; }
+.flex-col { display: flex; flex-direction: column; }
+.h-full { height: 100%; }
+.w-full { width: 100%; }
